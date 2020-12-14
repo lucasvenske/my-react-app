@@ -1,0 +1,10 @@
+.container-list {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+.container-list .title {
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace;
+}
