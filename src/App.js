@@ -1,12 +1,12 @@
-import React from 'react';
+import React  from 'react';
 import './App.css';
-import QuestionList from './components/QuestionList/questionlist.jsx'
+import Routes from './routes';
+
 function App() {
   return (
     <div className="root">
-      <QuestionList/>
+       <Routes/>
     </div>
-
   );
 }
 

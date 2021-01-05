@@ -1,0 +1,25 @@
+.container-register {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+.container-register .title {
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace;
+}
+.container-register .button {
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fafafa;
+    background-color: #6197fb;
+    transition: all .3s;
+    width: fit-content;
+}
+.container-register .button:hover {
+    background-color: #617dfb;
+}

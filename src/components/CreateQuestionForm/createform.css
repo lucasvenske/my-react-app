@@ -1,0 +1,40 @@
+.container-form{
+    width: 100%;
+    max-width: 100%;
+}
+.container-form .form-cadastro{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-form .form-cadastro input{
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: monospace;
+    width: 100%;
+    padding: 20px;
+}
+.container-form .form-cadastro textarea{
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: monospace;
+    width: 100%;
+    padding: 20px;
+}
+.container-form .form-cadastro button{
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fafafa;
+    background-color: #6197fb;
+    transition: all .3s;
+    width: fit-content;
+    margin: 15px auto 0;
+}
+.container-form .form-cadastro button:hover {
+    background-color: #617dfb;
+}
