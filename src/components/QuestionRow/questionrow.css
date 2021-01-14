@@ -9,9 +9,6 @@
     background-color: #ffffff;
     cursor: pointer;
 }
-.row:hover{
-    background-color: #fafafa;
-}
 .row .question-header {
     width: 100%;
     display: flex;
